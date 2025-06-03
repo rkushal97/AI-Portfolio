@@ -90,7 +90,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
           {/* File Upload Section */}
           {acceptedFiles && (
             <div className="space-y-2">
-              <label className="block text-sm font-medium text-gray-700">
+              <label className="block text-sm font-medium text-sky-400">
                 Upload File (Optional)
               </label>
               <div className="relative">
@@ -126,7 +126,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
 
           {/* Text Input Area */}
           <div className="space-y-2">
-            <label className="block text-sm font-medium text-gray-700">
+            <label className="block text-sm font-medium text-sky-400">
               Tell us more
             </label>
             <div className="relative">
